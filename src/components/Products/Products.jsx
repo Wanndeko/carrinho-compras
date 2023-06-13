@@ -1,29 +1,35 @@
 import './Products.css'
-import { useState, useEffect } from 'react'
+import { useEffect, useContext } from 'react'
 
+import AppContext from '../../context/AppContext'
 import api from '../../services/Api'
+import Loading from '../Loading/Loading'
 import ProductCard from '../ProductCard/ProductCard'
 
 function Products() {
-  const [productsView, setProductsView] = useState([])
+  const { productsView, setProductsView, loading, setLoading } =
+    useContext(AppContext)
 
   useEffect(() => {
     async function getProducts() {
       const {
         data: { results }
       } = await api.get('iphone')
-      console.log(results)
+
       setProductsView(results)
     }
     getProducts()
+    setLoading(false)
   }, [])
 
   return (
-    <main className="products container">
-      {productsView.map((product) => (
-        <ProductCard key={product.id} data={product} />
-      ))}
-    </main>
+    (loading && <Loading />) || (
+      <main className="products container">
+        {productsView.map((product) => (
+          <ProductCard key={product.id} data={product} />
+        ))}
+      </main>
+    )
   )
 }
 

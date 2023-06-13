@@ -1,0 +1,40 @@
+.cart-iten{
+display: flex;
+align-items: flex-start;
+position: relative;
+border-bottom: 1px solid #ddd;
+padding-bottom:20px ;
+margin-bottom: 20px;
+}
+
+
+.cart-iten-content{
+    padding: 0 35px 0 10px;
+}
+
+.product-image{
+    width: 70px;
+}
+
+.cart-iten-title{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color:#00000080;
+    margin-bottom: 8px;
+}
+
+.cart-iten-price{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.button__remove-iten{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #d83232;
+    font-size: 1.4rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

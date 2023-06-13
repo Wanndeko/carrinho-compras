@@ -1,0 +1,38 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 330px;
+    background-color: #fff;
+    height: 100vh;
+    position: fixed;
+    transform:translateX(110%) ;
+    transition: all 480ms ease;
+    top: 0;
+    right: 0;
+    padding: 100px 20px 20px;
+    
+}
+
+.cart-itens{
+    flex-grow: 1;
+    overflow: auto;
+
+}
+
+.cart-resume{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 35px 0 15px ;
+    border-top:1px solid #ddd ;
+
+}
+
+.cart-itens .cart-iten:last-child{
+    border-bottom: none;
+}
+
+.cart--active{
+   transform: translateX(0); 
+}
