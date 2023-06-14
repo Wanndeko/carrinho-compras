@@ -2,7 +2,7 @@ import './Products.css'
 import { useEffect, useContext } from 'react'
 
 import AppContext from '../../context/AppContext'
-import api from '../../services/Api'
+import api from '../../services/api'
 import Loading from '../Loading/Loading'
 import ProductCard from '../ProductCard/ProductCard'
 

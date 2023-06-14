@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const api = axios.create({
+const apiMercadoLivre = axios.create({
   baseURL: 'https://api.mercadolibre.com/sites/MLB/search?q='
 })
 
-export default api
+export default apiMercadoLivre

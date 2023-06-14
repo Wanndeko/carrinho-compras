@@ -3,8 +3,7 @@ import { BsSearch } from 'react-icons/bs'
 
 import './SearchBar.css'
 import AppContext from '../../context/AppContext'
-import api from '../../services/Api'
-
+import api from '../../services/api'
 function SearchBar() {
   const [searchValue, setSearchValue] = useState('')
 
