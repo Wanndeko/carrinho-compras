@@ -3,6 +3,16 @@
 ![Wanndeko-repo-status](https://img.shields.io/badge/Status-Finished-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
 ![Wanndeko-repo-license](https://img.shields.io/github/license/Luk4x/iManager-json-server?style=for-the-badge&logo=unlicense&logoColor=lightgrey)
 
+<div>
+  <img src=https://github.com/Wanndeko/Fortnite-web-site/assets/107483289/8e3d2b38-1d5c-4738-ad49-2c4c7d22f2a7>
+  <img src=https://github.com/Wanndeko/Fortnite-web-site/assets/107483289/5a3db373-647a-47fe-b05e-5dd98374b449>
+</div>
+
+<div align=center>
+  <img src=https://github.com/Wanndeko/Fortnite-web-site/assets/107483289/11663559-c50b-437d-83d2-8e355b67ac52>
+  <img src=https://github.com/Wanndeko/Fortnite-web-site/assets/107483289/e458829f-f41a-4284-a49a-5a268d9b816d>
+</div>
+
 <h2>Tecnologias🖥️</h2>
 <ul>
 <li><a href=https://pt-br.react.dev/>React.js</a></li>
@@ -19,7 +29,9 @@
 </ul>
 
 <h2>Descrição📃</h2>
-<p>Esse projeto é a interface de usuário de um carrinho de compras consumindo uma api do mercado livre.</p>
+<p>Esse projeto é a interface de usuário de um carrinho de compras consumindo uma api do mercado livre.</p><br>
+
+<a href=https://carrinho-compras-one.vercel.app/ target="blank">Link do projeto online 🚀 </a>
 
 <h2>Utilização🛠️</h2>
 <p>Na pagina inicial há varios cards de produtos, para adicionar os items no carrinho basta clicar no icone que fica no canto superior direito de cada card,
